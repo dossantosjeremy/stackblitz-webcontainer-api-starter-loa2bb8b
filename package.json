@@ -1,0 +1,38 @@
+{
+  "name": "video-transcription-and-annotation",
+  "version": "1.0.0",
+  "description": "An Electron app for video transcription, annotation, and clip creation",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "electron",
+    "video",
+    "transcription",
+    "annotation",
+    "clips"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "@electron-forge/plugin-webpack": "^6.4.2",
+    "electron": "^25.8.4",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ollama": "^0.5.9"
+  }
+}
